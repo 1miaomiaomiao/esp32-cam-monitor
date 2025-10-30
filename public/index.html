@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESP32-CAM 远程监控</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ESP32-CAM 远程监控</h1>
+        <div class="status">
+            <span id="status">等待连接...</span>
+        </div>
+        <div class="video-container">
+            <img id="videoStream" src="" alt="视频流">
+        </div>
+        <div class="controls">
+            <button id="startBtn">开始观看</button>
+            <button id="stopBtn">停止观看</button>
+        </div>
+    </div>
+    <script src="player.js"></script>
+</body>
+</html>
